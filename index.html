@@ -125,10 +125,11 @@
     }
     
     .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-    }
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    align-items: start;
+  }
 
     .project-card {
       background: white;
@@ -226,7 +227,6 @@
         flex-direction: row;
       }
     }
-    }
 
     footer {
       background: var(--dark);
@@ -289,24 +289,28 @@
   </section>
 
 <section id="projects">
-  <h2>HTML,CSS,PHP Project</h2>
+
+  <h2>HTML, CSS, PHP Project</h2>
   <div class="projects-grid">
     <div class="project-card">
       <h3>Tourist Management System</h3>
-      <p></p>
+      <p>Developed a web-based system to manage tourist bookings, destinations, and user data using PHP and MySQL.</p>
     </div>
+  </div>
+
   <h2>AI / ML Projects</h2>
   <div class="projects-grid">
     <div class="project-card">
       <h3>Integrated Academic Performance and Placement Prediction System</h3>
-      <p>Built a machine learning model to predict student grades using regression algorithms and data preprocessing techniques. It also predict the placement possibility according to the data provided by the student.</p>
+      <p>Built a machine learning model to predict student performance and placement chances using regression and data preprocessing.</p>
     </div>
-    <h2>AI / ML Projects</h2>
-  <div class="projects-grid">
+
     <div class="project-card">
-      <h3>Customer curn prediction</h3>
-      <p>Developed a machine learning-based Customer Churn Prediction System to analyze user behavior and identify customers likely to discontinue services.</p>
+      <h3>Customer Churn Prediction</h3>
+      <p>Developed a machine learning model to analyze customer behavior and predict churn using classification algorithms.</p>
     </div>
+  </div>
+
 </section>
 
 <section id="resume" class="resume">
